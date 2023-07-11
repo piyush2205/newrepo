@@ -1,0 +1,97 @@
+
+#navbar{
+    /* border: 1px solid red; */
+    height: auto;
+    width: 100vw;
+    position:fixed;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.900);
+    padding: 1%;
+
+}
+
+
+ul {
+    /* border: 1px solid blue; */
+    justify-content: left;
+    gap: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* padding: 1%; */
+    
+}
+a{
+    text-decoration: none;
+    color:  wheat;
+}
+a:hover{
+  color:var(--color-light);
+}
+
+li{
+    list-style: none;
+    font-size: 1rem;
+}
+
+/* {
+    justify-content: right;
+} */
+button{
+    
+    height: 38px;
+    width: 110px;
+    background-color:var(--color-primary);  
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 1rem;
+    /* margin-left: 60%; */
+}
+button:hover{
+    background-color:var(--color-primary-variant);
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.Button-navbar-resume{
+    height: 38px;
+        width: 110px;
+        background-color: var(--color-primary);
+        color: aliceblue;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        font-size: 1rem;
+        margin-left: 60%;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+}
+.darkIcon{
+    height: 35px;
+    width: 35px;
+    color: var(--color-primary-variant);
+}
+.nav_icon{
+    height: 35px;
+    width: 35px;
+    color: var(--color-primary-variant);
+}
+.nav_icon,.nav_close ,.nav_toggle{
+  display: none;
+}
